@@ -61,7 +61,8 @@ print(P)
 print(RS)
 
 plt.plot(D[0, 0:1500], D[1, 0:1500])
-plt.xlabel('Potencia', fontsize=15)
-plt.ylabel('Longitud de Onda', fontsize=15)
+plt.title('Espectro del Sol')
+plt.xlabel('Longitud de Onda $[nm]$', fontsize=15)
+plt.ylabel('Flujo $[w/m^2 nm^1]$', fontsize=15)
 
 plt.show()

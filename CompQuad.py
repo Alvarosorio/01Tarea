@@ -3,6 +3,10 @@ from split import *
 import numpy as np
 from planck import *
 
+#En este script se compara el algoritmo implementado para calcular la funcion
+#de planck con la funcion de scipy integrate.quad
+
+
 
 #Integracion numerica de la funcion de Planck
 #No podemos partir el calculo de la integral desde cero
@@ -27,3 +31,4 @@ I, err = quad(planck, 0, np.pi/2)
 
 print(S)
 print(I)
+print(I-S)

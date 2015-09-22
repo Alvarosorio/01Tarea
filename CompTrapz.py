@@ -2,6 +2,9 @@ from scipy.integrate import *
 from split import *
 import numpy as np
 
+#En este script se compara el algoritmo implementado para calcular el Espectro
+#del sol con la funcion de scipy integrate.trapz
+
 #Cargamos los datos
 T = np.loadtxt("sun_AM0.dat")
 
