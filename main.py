@@ -1,5 +1,5 @@
 from split import *
-from Planck import *
+from planck import *
 import numpy as np
 import matplotlib.pyplot as plt
 from astropy import constants as const
@@ -46,7 +46,7 @@ for k in range(0, m[0]-2):
 #Tenemos que la temperatura que mas se aproxima a la del sol es 5778 K
 temp = 5778 * u.K
 
-#La constante que acompaña la integral
+#La constante que acompana la integral
 P = ((2*np.pi*const.h)/((const.c)**2)) * ((const.k_B*temp)/(const.h))**4
 #el valor final de la funcion de Planck
 P = P*S

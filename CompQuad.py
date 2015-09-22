@@ -1,7 +1,7 @@
 from scipy.integrate import *
 from split import *
 import numpy as np
-from Planck import *
+from planck import *
 
 
 #Integracion numerica de la funcion de Planck
