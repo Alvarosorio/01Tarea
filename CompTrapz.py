@@ -25,5 +25,5 @@ for j in range(0, n[1]-1):
 
 T = trapz(D[1, :], x=D[0, :])
 
-print(I)
-print(T)
+print "Metodo Implementado =", I
+print "integrate.trapz =", T

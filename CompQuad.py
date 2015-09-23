@@ -29,6 +29,6 @@ for k in range(0, m[0]-2):
 
 I, err = quad(planck, 0, np.pi/2)
 
-print(S)
-print(I)
-print(I-S)
+print "Metodo Implementado =", S
+print "integrate.quad =", I
+print "diferencia =", I-S

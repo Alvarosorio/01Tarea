@@ -56,9 +56,9 @@ a = const.au
 
 RS = (np.sqrt(I/P.value))*a
 
-print(I)
-print(P)
-print(RS)
+print "Constante solar =", I
+print "Integral de la funcion de Planck", P
+print "Radio  del Sol", RS
 
 plt.plot(D[0, 0:1500], D[1, 0:1500])
 plt.title('Espectro del Sol')
