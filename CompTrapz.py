@@ -16,7 +16,7 @@ D = split(T)
 #El tamano de esta matriz
 n = D.shape
 
-#integracion ordinaria, mas ordinaria que el vino en bolsa
+#Algoritmo implementado
 start_1 = time.time()
 I = 0
 for j in range(0, n[1]-1):
